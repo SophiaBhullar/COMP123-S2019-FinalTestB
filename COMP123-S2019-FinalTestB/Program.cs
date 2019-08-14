@@ -1,13 +1,23 @@
-﻿using System;
+﻿using COMP123_S2019_FinalTestB.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/* 
+ * STUDENT NAME: SOPHIA BHULLAR
+ * STUDENT ID: 301048344
+ * DESCRIPTION: This is the driver class for the application
+ */
+
 namespace COMP123_S2019_FinalTestB
 {
     static class Program
     {
+
+        public static CharacterGenerationForm characterForm;
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -16,7 +26,11 @@ namespace COMP123_S2019_FinalTestB
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+            characterForm = new CharacterGenerationForm();
+
+
+            Application.Run(characterForm);
         }
     }
 }
