@@ -4,9 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/* 
+ * STUDENT NAME: SOPHIA BHULLAR
+ * STUDENT ID: 301048344
+ * DESCRIPTION: This is the Item class.
+ *              Used for Inventory Management.
+ */
+
+
 namespace COMP123_S2019_FinalTestB.Objects
 {
-    class Equipment
+    class Item
     {
         public string Description { get; set; }
         public float Weight { get; set; }

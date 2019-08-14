@@ -4,7 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace COMP123_S2019_FinalTestB.Data
+/* 
+ * STUDENT NAME: SOPHIA BHULLAR
+ * STUDENT ID: 301048344
+ * DESCRIPTION: This is the Character class used in character creation.
+ *              This is also the Data container for the application.
+ */
+
+
+
+namespace COMP123_S2019_FinalTestB.Objects
 {
     class Character
     {
@@ -21,8 +30,16 @@ namespace COMP123_S2019_FinalTestB.Data
         public int HitPoints { get; set; }
 
         //Character Class
-        public string CharacterClass { get; set; }
+        public CharacterClass Class { get; set; }
         public int Level { get; set; }
 
+        //Equipment
+        List<Item> Inventory;
+
+        //Constructor
+        Character()
+        {
+            this.Inventory = new List<Item>();
+        }
     }
 }
