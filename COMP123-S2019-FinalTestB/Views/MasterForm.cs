@@ -8,6 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/* 
+ * STUDENT NAME: SOPHIA BHULLAR
+ * STUDENT ID: 301048344
+ * DESCRIPTION: This is the masterForm 
+ */
+
 namespace COMP123_S2019_FinalTestB.Views
 {
     public partial class MasterForm : Form
